@@ -10,7 +10,7 @@ public class java11_10 {
 			set.add((int)(Math.random()*30)+1+"");
 		}
 		
-		ArrayList list  = new ArrayList(set);
+		List list  = new LinkedList(set);
 		Collections.shuffle(list);
 		
 		Iterator itr = list.iterator();
