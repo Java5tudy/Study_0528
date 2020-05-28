@@ -5,12 +5,12 @@ public class java11_1 {
 	public static void main(String[] args) {
 		ArrayList list1 = new ArrayList();
 		ArrayList list2 = new ArrayList();
-		ArrayList kyo = new ArrayList(); //±³ÁıÇÕ
-		ArrayList cha = new ArrayList(); //Â÷ÁıÇÕ
-		ArrayList hap = new ArrayList(); //ÇÕÁıÇÕ
+		ArrayList kyo = new ArrayList(); //êµì§‘í•©
+		ArrayList cha = new ArrayList(); //ì°¨ì§‘í•©
+		ArrayList hap = new ArrayList(); //í•©ì§‘í•©
 		
-		kyo.addAll(list1); // list1ÀÇ ÀüÃ¼ÁıÇÕ ¸ÕÀú ÃßÃâ
-		kyo.retainAll(list2); // list1ÀÇ ÀüÃ¼ÁıÇÕ¿¡¼­ list2¿Í µ¿ÀÏÇÑ°Í¸¸ ³²±â°í »èÁ¦
+		kyo.addAll(list1); // list1ì˜ ì „ì²´ì§‘í•© ë¨¼ì € ì¶”ì¶œ
+		kyo.retainAll(list2); // list1ì˜ ì „ì²´ì§‘í•©ì—ì„œ list2ì™€ ë™ì¼í•œê²ƒë§Œ ë‚¨ê¸°ê³  ì‚­ì œ
 		
 		hap.addAll(list1);
 		hap.addAll(list2);
@@ -34,9 +34,9 @@ public class java11_1 {
 	
 		System.out.println("list1="+list1);
 		System.out.println("list2="+list2);
-		System.out.println("±³ÁıÇÕ:"+kyo);
-		System.out.println("Â÷ÁıÇÕ:"+cha);
-		System.out.println("ÇÕÁıÇÕ:"+hap);
+		System.out.println("êµì§‘í•©:"+kyo);
+		System.out.println("ì°¨ì§‘í•©:"+cha);
+		System.out.println("í•©ì§‘í•©:"+hap);
 
 	}
 }
